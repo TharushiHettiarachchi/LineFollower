@@ -7,6 +7,7 @@
     <title>Line Follower</title>
 </head>
 <body>
+    <?php include "header.php"; ?>
   
 <script src="script.js"></script>
 </body>
