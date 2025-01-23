@@ -40,7 +40,7 @@
                             <input type="radio" id="item-1" name="gallery-item">
                             <label for="item-1">25th FEB</label>
                             <h2>Registration</h2>
-                            <p>Registrations are Open. Hurry up and Regsiter <br> <button class="timelineBtn">Register</button></p>
+                            <p>Registrations are Open. Hurry up and Regsiter  <button class="timelineBtn" onclick="goToRegister();">Register</button></p>
                            
                         </li>
                         <li style="--i: 2;">

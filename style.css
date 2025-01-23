@@ -402,6 +402,7 @@ em {
 
 .timelineBtn{
     background-color: var(--darkBlue);
+    z-index: 20;
     color: white;
     font-size: 16px;
     width: 200px;
@@ -414,12 +415,92 @@ em {
     margin-top: 20px;
     border: none;
     box-shadow: 0px 0px 10px 0px var(--darkBlue);
-    animation-name: buttonFlash;
+    /* animation-name: buttonFlash; */
     animation-duration: 1s;
     animation-iteration-count: infinite;
     
     
 }
+
+
+.registerBody {
+  /* background-image: url("Resources/image3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: auto;
+  background-color: rgb(218, 218, 218);
+  width: 100vw;
+
+  flex-direction: column;
+}
+
+.registerContainer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.registerTitle {
+  font-size: 80px;
+  color: var(--darkBlue);
+  padding-top: 100px;
+  width: 100%;
+  font-family: "Jersey 15", serif;
+  text-align: center;
+
+}
+
+.inputPanel{
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0px;
+
+}
+
+.registerInputField{
+  width: 300px;
+  border: none;
+  outline: none;
+  height: 26px;
+  padding-left: 10px;
+
+}
+
+.registerLabel{
+  color: var(--darkBlue);
+
+}
+
+.memberTitle{
+  color: var(--darkBlue);
+  font-weight: bold;
+  font-size: 22px;
+  width: 60vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.memberPanelDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+
 
 @keyframes buttonFlash {
     0%{
